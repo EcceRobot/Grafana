@@ -32,3 +32,9 @@ Enable the systemd service so that Grafana starts at boot.
 ```
 sudo systemctl enable grafana-server.service
 ```
+
+### Logging in for the first time
+
+To run Grafana open your browser and go to http://localhost:3000/.
+
+Default username is _admin_ and default password is _admin_. When you log in for the first time you will be asked to change your password.
